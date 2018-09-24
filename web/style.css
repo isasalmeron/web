@@ -1,0 +1,365 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;	
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    background-color: black;
+}
+
+#icone{
+    height:110px;
+    margin-left:25px;
+    position:relative;
+}
+
+header h1{
+    font-size:60px;	
+    font-family: "Monotype Corsiva", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight:bold;
+    color:yellow;
+    width: 60%;
+    margin: auto;
+    margin-top:-80px;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:40px; 
+   background-color:black;
+   font-size:18px;
+   font-family: "Monotype Corsiva", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+   font-weight: bold; 
+   color: yellow;
+   text-align:center;
+   padding-top:10px;
+}
+
+#quemsomos{
+    text-decoration: none;
+    padding: 7px 14px;
+    margin-right: 40px;
+    color: yellow;
+    float: right;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#legenda{
+    font-size:15px;
+    font-family:"Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color:yellow;
+    float:left;
+    margin-left:10px;
+    width: 80%;
+}
+
+h1{
+    text-align:center;	
+    font-size:30px;
+    margin-top:20px;
+    position:relative;
+}
+
+.box{
+    display: inline-block;
+    margin-left:80px;
+    width: 40%;
+    height:110px;
+    border-radius:20px;
+    padding-left: 12px;
+    position: relative;
+}
+
+#historico{
+    background-color:black;
+}
+
+#localizacao {
+    background-color:black;
+    margin-top:20px;
+        
+}
+
+#texto{
+    font-size:45px;	
+    font-family:"Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight:bold;
+    color:yellow;
+    float:left;
+    margin-left:10px;
+    margin-top:7px;
+    width: 60%;
+}
+
+.guest{
+    height: 400px;
+    color: #555;
+    width: 20%;
+    text-align: center;
+    font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;    
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#colaboradores{
+    width: 75%;
+    height: 450px;
+    margin:auto;
+}
+
+.guest img{
+    border-radius: 300px;
+    height: 40%;
+    margin-bottom: 15px;
+    
+}
+
+.introBusca{
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formBusca{
+    width: 30%;
+    height: 230px;
+    margin: auto;
+    font-size: 20pt;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    border-radius: 20px;
+    padding-top: 10px; 
+}
+
+.formBusca input{
+    font-size: 10pt;
+    font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#btConsultar{
+    padding: 7px 14px;
+    color: yellow;
+    background-color: black;
+    font-size: 15pt;
+    width: 72%;
+    margin: auto;
+    margin-top: 15px;
+    font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    text-align: center;  
+    text-decoration: none;
+}
+
+.introBusca2{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formBusca2{
+    width: 30%;
+    height: 320px;
+    margin: auto;
+    font-size: 20pt;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    border-radius: 20px;
+    padding-top: 15px; 
+}
+
+#ordenacao, #categoria, #autor, #isbn, #codigo, #titulo{
+    font-size: 10pt;
+    font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+#ordenacao{
+    width: 38%;
+}
+
+.formBusca2 p{
+    margin: 10px;
+}
+
+#tbHistorico{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    border-spacing: 0;
+    border-radius: 10px; 
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.7);
+    margin-bottom: 15px;
+}
+
+th{
+    color: yellow;
+    background-color: black;
+    margin: 0px;
+}
+
+#tbtitulo{
+    border-top-left-radius: 10px; 
+}
+
+#dtDevolucao{
+    border-top-right-radius: 10px;
+}
+
+td, tr{
+    border: 1px solid black;
+    height: 30px;
+}
+
+.colTitulo{
+    width: 55%;
+}
+
+#resultados{
+    width: 100%;
+    height: 380px;
+}
+
+#botoes{
+    width: 12%;
+}
+
+#tbDisponibilidade{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    border-spacing: 0;
+    border-radius: 10px; 
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.7);
+    margin-bottom: 15px;
+}
+
+.colCategoria{
+   width: 25%; 
+}
+
+.isbn{
+    width:13%;
+}
+
+.cod{
+    width: 7%;
+}
+
+.status{
+    border-top-right-radius: 10px;
+    width: 13%;
+}
+
+#semResultado{
+    width: 30%;
+    height: 180px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    font-size: 20pt;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    border-radius: 20px;
+    padding-top: 40px;
+}
+
+/****PARA PAGINACAO******/
+div.dataTables_paginate {
+    width: 100%;
+    float:left;
+    margin: auto;
+}
+.pagination{
+    color: black;
+    width: 30%;
+    margin: auto;
+}
+ul.pagination{
+    display:block;
+    height:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.pagination li{
+    height:20px;
+    font-size:16px;
+    margin: auto;
+}
+ul.pagination li a{
+    text-decoration: none;
+    display:block;
+    padding:0.0625rem 0.625rem 0.0625rem;
+    color:black;
+    -webkit-border-radius:3px;
+    border-radius:3px
+}
+ul.pagination li:hover a,ul.pagination li a:focus{
+    background:black;
+    color: yellow;
+    text-decoration: none;
+}
+ul.pagination li.unavailable a{
+    cursor:default;
+    text-decoration: none;
+    color: #A9A9A9;
+}
+ul.pagination li.unavailable:hover a,ul.pagination li.unavailable a:focus{
+    text-decoration: none; 
+    background:transparent;
+}
+
+ul.pagination li.current a{
+    background:black; 
+    text-decoration: none;
+    color:yellow;
+    font-weight:bold;
+    cursor:default;
+    border: 1px solid yellow;
+}
+ul.pagination li.current a:hover,ul.pagination li.current a:focus{
+    text-decoration: none;
+    background:black;
+}
+ul.pagination li{
+    float:left;
+    display:block
+}
+.pagination-centered{
+    text-align:center
+}
+.pagination-centered ul.pagination li{
+    display:inline-block;
+}
